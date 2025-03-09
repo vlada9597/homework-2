@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-work-2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"/>
+    <link rel="preload" href="./img/gus-anim.gif" as="image">
+    <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+   <div class="main-page-list">
+     <h1>Menu</h1>
+
+      <ul class="list-page">
+        <li><a href="index.html" id="#section1">Main</a></li>
+        <li><a href="pages.about.html" id="#section2">About us</a></li>
+        <li><a href="pages.articles.html" id="#section3">Articles</a></li>
+        <li><a href="pages.gallery.html" id="#section4">Gallery</a></li>
+        <li><a href="pages.contacts.html" id="#section5">Contacts</a></li>
+        <li><a href="pages.form.html" id="#section6">Form</a></li>
+        <li><a href="pages.anchors.html" id="#section7">Anchors</a></li>
+      </ul>
+   </div>
+
+    <div class="form-mood">
+      <h2>Say about your mood today!</h2>
+
+      <p>Choosing what describe your mood.</p>
+
+      <div>
+        <a href="images/emoji.jpg" target="_blank">
+          <img src="images/emoji.jpg" alt="emoji" width="350">
+        </a>
+     </div>
+
+     <form class="form">
+      <fieldset>
+        <legend>Personal information</legend>
+       
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+        </div>
+       
+         <div>
+          <label for="email">Email address:</label>
+          <input type="email" id="email" name="email">
+        </div>
+      </fieldset>
+       
+       <fieldset>
+         <legend>Choosing emotions</legend>
+       
+         <div>
+           <label for="emotions">Emotions:</label>
+          <select id="emotions" name="emotions">
+            <option value="happy">happy</option>
+            <option value="sad">sad</option>
+            <option value="cry">cry</option>
+          </select>
+        </div>
+      </fieldset>
+       
+       <input type="submit" value="Sent">
+       <button type="button" onclick="alert('Hi, smile!')">Click</button>
+    </form>
+    </div>
+
+    
+    <footer class="footer">&copy; 2025</footer>
+  </body>
+</html>
